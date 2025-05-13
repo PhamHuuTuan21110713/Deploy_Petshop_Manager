@@ -3,7 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
-import { useAuth } from "~/components/Authentication/Authentication";
+import { useAuth } from "~/components/Authentication/authentication";
 import { NotifyFetch } from "~/REST_API_Client";
 import { ChatContext } from "../ChatProvider/ChatProvider";
 const Notify = () => {
